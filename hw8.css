@@ -1,0 +1,108 @@
+.nav-tabs {
+	padding-right: 0px;
+	margin-right: 0px;
+	border-bottom-width: 2px;
+	border-bottom-color: rgb(59,89,140);
+}
+
+.tabActive {
+	background-color: rgb(59,89,140);
+}
+
+#resultData .container.active,.panel.active {
+	margin-left: 40px;
+	display: block;
+}
+
+#resultData .container.inactive,.panel.inactive {
+	margin-left: -5000px;
+	display: none;
+}
+
+.albums.panel,.posts.panel { /* album and posts panel */
+	margin-top: 30px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.panel.panel-warning.active { /* No data found. */
+	margin-left: 10px;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+.col-md-1 { /* back button */
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.albumPhotoActive,.albumsContent.active,.postsContent.active{
+	display: block;
+}
+
+.albumPhotoInActive,.albumsContent.inactive,.postsContent.inactive,.btn.preInactive,.btn.nextInactive {
+	display: none;
+}
+
+.panel.panel-default {
+	margin-bottom: 0px;
+}
+
+.albumsContent,.postsContent{
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.btn {
+	width: 80px;
+}
+
+.btn.preActive,.btn.nextActive {
+	display: inline-block;
+}
+
+.icon-success {
+	color: rgb(255,215,0);
+}
+
+.progress {
+	margin-top: 10%;
+	width: 60%;
+	margin-left: 20%;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+    .col-xs-offset-0 {
+    	margin-top: 10%;
+    	margin-left: -2%;
+    }
+    .col-xs-5 {
+    	width: 64%;
+    }
+    .col-xs-6 {
+    	width: 80%;
+    }
+    .col-xs-1 {
+    	width: 30%;
+    	margin-bottom: 3%;
+    }
+
+    .col-xs-9 {
+    	width: 20%;
+    }
+
+    .col-xs-7 {
+    	width: 80%;
+    	padding-top: 3%;
+    	padding-left: -20%;
+    }
+
+    .col-xs-3 { /*back*/
+    	width: 25%;
+    	padding-right: 10%;
+    	margin-bottom: 10%;
+    }
+}
