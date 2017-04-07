@@ -1,2 +1,2 @@
-This is a static front-end page using HTML and CSS
-Link: http://www-scf.usc.edu/~yunxiliu/MyHW3/locations.html
+This is a search tool which calls Facebook API;
+Link: http://cs-server.usc.edu:20325/search.php
